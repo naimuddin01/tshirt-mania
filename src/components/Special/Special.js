@@ -12,7 +12,7 @@ const Special = () => {
             <h5>Special</h5>
             <p><small>House: {house}</small></p>
             <p><small>Gift: {ring}</small></p>
-            <button onClick={() => handleHouseDescrese()}>Sell a House</button>
+            {house > 5 && <button onClick={() => handleHouseDescrese()}>Sell a House</button>}
             
         </div>
     );
