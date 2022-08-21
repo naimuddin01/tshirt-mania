@@ -1,0 +1,8 @@
+.t-shirt{
+    height: 500px;
+    border: 1px solid lightgray;
+}
+
+.t-shirt img{
+    height: 300px; 
+}
